@@ -22,4 +22,4 @@ Admin.methods.setDate = function () {
   this.created = dateNow
 }
 
-module.exports = mongoose.models('Admin', Admin)
+module.exports = mongoose.model('Admin', Admin)
